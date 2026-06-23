@@ -10,8 +10,10 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
 using Patient_Grievance_and_Complaint_Resolution.services;
+using QuestPDF.Infrastructure;
 
 var builder = WebApplication.CreateBuilder(args);
+QuestPDF.Settings.License = LicenseType.Community;
 
 // Add services to the container.
 
@@ -41,6 +43,7 @@ builder.Services.AddScoped<IAuthService,
 
 builder.Services.AddScoped<IJwtService,
     JwtService>();
+builder.Services.AddScoped<IReportService, ReportService>();
 builder.Services.AddAuthentication(
     JwtBearerDefaults.AuthenticationScheme)
     .AddJwtBearer(options =>
