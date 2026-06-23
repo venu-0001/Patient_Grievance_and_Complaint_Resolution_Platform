@@ -1,6 +1,6 @@
 ﻿using Patient_Grievance_and_Complaint_Resolution.Models;
-using Patient_Grievance_and_Complaint_Resolution.Repository.Interface;
-using Patient_Grievance_and_Complaint_Resolution.services.Interfaces;
+using Patient_Grievance_and_Complaint_Resolution.Repository.Interfaces;
+using Patient_Grievance_and_Complaint_Resolution.Services.Interfaces;
 
 namespace Patient_Grievance_and_Complaint_Resolution.services
 {

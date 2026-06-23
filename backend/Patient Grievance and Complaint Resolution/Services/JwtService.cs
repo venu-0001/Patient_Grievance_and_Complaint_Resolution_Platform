@@ -1,6 +1,6 @@
 ﻿using Microsoft.IdentityModel.Tokens;
 using Patient_Grievance_and_Complaint_Resolution.Models;
-using Patient_Grievance_and_Complaint_Resolution.services.Interfaces;
+using Patient_Grievance_and_Complaint_Resolution.Services.Interfaces;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;

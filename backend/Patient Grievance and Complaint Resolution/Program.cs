@@ -9,6 +9,7 @@ using Patient_Grievance_and_Complaint_Resolution.Services.Interfaces;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
+using Patient_Grievance_and_Complaint_Resolution.services;
 
 var builder = WebApplication.CreateBuilder(args);
 

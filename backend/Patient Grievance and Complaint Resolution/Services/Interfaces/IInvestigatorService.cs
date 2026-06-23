@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Patient_Grievance_and_Complaint_Resolution.DTOs;
 
-namespace Patient_Grievance_and_Complaint_Resolution.Service.Interface
+namespace Patient_Grievance_and_Complaint_Resolution.Services.Interfaces
 {
     public interface IInvestigatorService
     {

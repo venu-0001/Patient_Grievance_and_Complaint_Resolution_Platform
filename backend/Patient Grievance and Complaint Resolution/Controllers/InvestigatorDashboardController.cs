@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Patient_Grievance_and_Complaint_Resolution.DTOs;
-using Patient_Grievance_and_Complaint_Resolution.services.Interfaces;
+using Patient_Grievance_and_Complaint_Resolution.Services.Interfaces;
 using System.Security.Claims;
 using Microsoft.AspNetCore.Authorization;
 
@@ -8,11 +8,11 @@ namespace Patient_Grievance_and_Complaint_Resolution.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
-    public class InvestigatorController : ControllerBase
+    public class InvestigatorDashboardController : ControllerBase
     {
         private readonly IInvestigatorService _service;
 
-        public InvestigatorController(
+        public InvestigatorDashboardController(
             IInvestigatorService service)
         {
             _service = service;
