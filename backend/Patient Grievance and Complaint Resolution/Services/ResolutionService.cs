@@ -35,25 +35,6 @@ namespace Patient_Grievance_and_Complaint_Resolution.Services
         }
 
         // ✅ POST: Create Resolution (used by POST API)
-        public async Task CreateResolutionAsync(
-            int grievanceId,
-            int investigatorId,
-            CreateResolutionRequest request,
-            CancellationToken cancellationToken)
-        {
-            var resolution = new Resolution
-            {
-                GrievanceId = grievanceId,
-                InvestigatorId = investigatorId,
-                RootCause = request.RootCause,
-                CorrectiveAction = request.CorrectiveAction,
-                PreventiveAction = request.PreventiveAction,
-                ResolutionSummary = request.ResolutionSummary,
-                ApprovedByAdminId = request.ApprovedByAdminId,
-                ResolvedAt = DateTime.UtcNow
-            };
 
-            await _repository.AddResolutionAsync(resolution, cancellationToken);
-        }
     }
 }

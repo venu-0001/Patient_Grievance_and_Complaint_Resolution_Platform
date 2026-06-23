@@ -10,10 +10,5 @@ namespace Patient_Grievance_and_Complaint_Resolution.Services.Interfaces
             CancellationToken cancellationToken);
 
         // ✅ NEW POST service method
-        Task CreateResolutionAsync(
-            int grievanceId,
-            int investigatorId,
-            CreateResolutionRequest request,
-            CancellationToken cancellationToken);
     }
 }
