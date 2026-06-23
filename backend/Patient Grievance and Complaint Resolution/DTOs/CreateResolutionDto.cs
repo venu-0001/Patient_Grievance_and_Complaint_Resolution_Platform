@@ -6,8 +6,12 @@
 
         public int InvestigatorId { get; set; }
 
-        public string PreventiveAction { get; set; }
+        public string? RootCause { get; set; }
 
-        public string CorrectiveAction { get; set; }
+        public string? ResolutionSummary { get; set; }
+
+        public string? PreventiveAction { get; set; }
+
+        public string? CorrectiveAction { get; set; }
     }
 }

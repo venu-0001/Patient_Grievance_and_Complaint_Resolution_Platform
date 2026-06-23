@@ -97,6 +97,8 @@ namespace Patient_Grievance_and_Complaint_Resolution.Service
             {
                 GrievanceId = dto.GrievanceId,
                 InvestigatorId = dto.InvestigatorId,
+                RootCause = dto.RootCause,
+                ResolutionSummary = dto.ResolutionSummary,
                 PreventiveAction = dto.PreventiveAction,
                 CorrectiveAction = dto.CorrectiveAction,
                 ResolvedAt = DateTime.UtcNow

@@ -2,7 +2,6 @@
 {
     public class User
     {
-        //hello world
         public int UserId { get; set; }
 
         public string Email { get; set; }

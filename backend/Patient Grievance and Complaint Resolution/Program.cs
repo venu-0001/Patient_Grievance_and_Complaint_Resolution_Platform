@@ -6,6 +6,9 @@ using Patient_Grievance_and_Complaint_Resolution.Repository;
 using Patient_Grievance_and_Complaint_Resolution.Repository.Interface;
 using Patient_Grievance_and_Complaint_Resolution.Service;
 using Patient_Grievance_and_Complaint_Resolution.Service.Interface;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -29,6 +32,40 @@ builder.Services.AddHostedService<
     EscalationBackgroundService>();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.AddScoped<IUserRepository,
+    UserRepository>();
+
+builder.Services.AddScoped<IAuthService,
+    AuthService>();
+
+builder.Services.AddScoped<IJwtService,
+    JwtService>();
+builder.Services.AddAuthentication(
+    JwtBearerDefaults.AuthenticationScheme)
+    .AddJwtBearer(options =>
+    {
+        options.TokenValidationParameters =
+            new TokenValidationParameters
+            {
+                ValidateIssuer = true,
+                ValidateAudience = true,
+                ValidateLifetime = true,
+                ValidateIssuerSigningKey = true,
+
+                ValidIssuer =
+                    builder.Configuration["Jwt:Issuer"],
+
+                ValidAudience =
+                    builder.Configuration["Jwt:Audience"],
+
+                IssuerSigningKey =
+                    new SymmetricSecurityKey(
+                        Encoding.UTF8.GetBytes(
+                            builder.Configuration["Jwt:SecretKey"]))
+            };
+    });
+
+builder.Services.AddAuthorization();
 
 var app = builder.Build();
 app.UseMiddleware<GlobalExceptionMiddleware>();
@@ -41,6 +78,9 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+
+
+app.UseAuthentication();
 
 app.UseAuthorization();
 
