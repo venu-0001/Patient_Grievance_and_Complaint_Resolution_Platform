@@ -7,11 +7,6 @@ public partial class Patient
 {
     public int PatientId { get; set; }
 
-    public int? UserId { get; set; }
-
-    // ✅ NEW: Navigation property
-    public virtual User? User { get; set; } = null!;
-
     public string Mrn { get; set; } = null!;
 
     public string FirstName { get; set; } = null!;
@@ -29,6 +24,9 @@ public partial class Patient
     public string? Gender { get; set; }
 
     public string? Address { get; set; }
+    public int? UserId { get; set; }
+
+    public virtual User? User { get; set; }
 
     public virtual ICollection<AuditLog> AuditLogs { get; set; } = new List<AuditLog>();
 

@@ -1,38 +1,76 @@
-﻿using Microsoft.EntityFrameworkCore;
-using Patient_Grievance_and_Complaint_Resolution.Data;
+using Microsoft.EntityFrameworkCore;
+using Patient_Grievance_and_Complaint_Resolution.BackgroundServices;
+using Patient_Grievance_and_Complaint_Resolution.Middleware;
+using Patient_Grievance_and_Complaint_Resolution.Models;
 using Patient_Grievance_and_Complaint_Resolution.Repository;
 using Patient_Grievance_and_Complaint_Resolution.Repository.Interfaces;
 using Patient_Grievance_and_Complaint_Resolution.Services;
 using Patient_Grievance_and_Complaint_Resolution.Services.Interfaces;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// ✅ Add DbContext
-builder.Services.AddDbContext<AppDbContext>(options =>
+// Add services to the container.
+
+builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(
         builder.Configuration.GetConnectionString("DefaultConnection")));
 
-// ✅ Register Repositories
-builder.Services.AddScoped<IResolutionRepository, ResolutionRepository>();
-builder.Services.AddScoped<IComplaintRepository, ComplaintRepository>();
-;
-
-
-// ✅ Register Services
-builder.Services.AddScoped<IResolutionService, ResolutionService>();
-builder.Services.AddScoped<IComplaintService, ComplaintService>();
-
-
-// ✅ Controllers
 builder.Services.AddControllers();
+builder.Services.AddMemoryCache();
+builder.Services.AddScoped<IInvestigatorRepository,
+                           InvestigatorRepository>();
 
-// ✅ Swagger
+builder.Services.AddScoped<IInvestigatorService,
+                           InvestigatorService>();
+builder.Services.AddScoped<
+    IEscalationService,
+    EscalationService>();
+builder.Services.AddHostedService<
+    EscalationBackgroundService>();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.AddScoped<IUserRepository,
+    UserRepository>();
+
+builder.Services.AddScoped<IAuthService,
+    AuthService>();
+
+builder.Services.AddScoped<IJwtService,
+    JwtService>();
+builder.Services.AddAuthentication(
+    JwtBearerDefaults.AuthenticationScheme)
+    .AddJwtBearer(options =>
+    {
+        options.TokenValidationParameters =
+            new TokenValidationParameters
+            {
+                ValidateIssuer = true,
+                ValidateAudience = true,
+                ValidateLifetime = true,
+                ValidateIssuerSigningKey = true,
+
+                ValidIssuer =
+                    builder.Configuration["Jwt:Issuer"],
+
+                ValidAudience =
+                    builder.Configuration["Jwt:Audience"],
+
+                IssuerSigningKey =
+                    new SymmetricSecurityKey(
+                        Encoding.UTF8.GetBytes(
+                            builder.Configuration["Jwt:SecretKey"]))
+            };
+    });
+
+builder.Services.AddAuthorization();
 
 var app = builder.Build();
+app.UseMiddleware<GlobalExceptionMiddleware>();
 
-// ✅ Middleware pipeline
+// Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
@@ -41,7 +79,9 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
-// (Auth not added yet — Swagger testing ✅)
+
+app.UseAuthentication();
+
 app.UseAuthorization();
 
 app.MapControllers();

@@ -1,26 +1,21 @@
-﻿using System.Data;
-
-namespace Patient_Grievance_and_Complaint_Resolution.Models
+﻿namespace Patient_Grievance_and_Complaint_Resolution.Models
 {
-    public partial class User
+    public class User
     {
         public int UserId { get; set; }
 
-        public string Email { get; set; } = null!;
+        public string Email { get; set; }
 
-        public string PasswordHash { get; set; } = null!;
+        public string PasswordHash { get; set; }
 
         public int RoleId { get; set; }
 
-        public virtual Role Role { get; set; } = null!;
+        public Role Role { get; set; }
 
-        public virtual ICollection<Admin> Admins { get; set; }
-            = new List<Admin>();
+        public ICollection<Admin> Admins { get; set; }
 
-        public virtual ICollection<Patient> Patients { get; set; }
-            = new List<Patient>();
+        public ICollection<Patient> Patients { get; set; }
 
-        public virtual ICollection<Investigator> Investigators { get; set; }
-            = new List<Investigator>();
+        public ICollection<Investigator> Investigators { get; set; }
     }
 }

@@ -8,11 +8,6 @@ public partial class Admin
     public int AdminId { get; set; }
 
 
-    public int? UserId { get; set; }
-
-    // ✅ NEW: Navigation property
-    public virtual User? User { get; set; } = null!;
-
     public string Username { get; set; } = null!;
 
     //public string Password { get; set; } = null!;
@@ -24,6 +19,9 @@ public partial class Admin
     public DateTime? Dob { get; set; }
 
     public string Role { get; set; } = null!;
+    public int? UserId { get; set; }
+
+    public virtual User? User { get; set; }
 
     public virtual ICollection<AuditLog> AuditLogs { get; set; } = new List<AuditLog>();
 

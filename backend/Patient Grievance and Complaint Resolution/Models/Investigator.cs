@@ -9,10 +9,6 @@ public partial class Investigator
 {
     public int InvestigatorId { get; set; }
 
-    public int? UserId { get; set; }
-
-    public virtual User? User { get; set; } = null!;
-
     public string EmployeeCode { get; set; } = null!;
 
     public string FullName { get; set; } = null!;
@@ -24,6 +20,9 @@ public partial class Investigator
     public int CurrentLoad { get; set; }
 
     public byte? Rating { get; set; }
+    public int? UserId { get; set; }
+
+    public virtual User? User { get; set; }
 
     public virtual ICollection<Assignment> Assignments { get; set; } = new List<Assignment>();
 

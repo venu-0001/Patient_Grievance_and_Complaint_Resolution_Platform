@@ -23,8 +23,6 @@ public partial class Grievance
 
     public string Description { get; set; } = null!;
  
-
-
     public int? InvestigatorId { get; set; }
 
     public int StatusId { get; set; }
@@ -36,8 +34,7 @@ public partial class Grievance
     public DateTime CreatedAt { get; set; }
 
     public DateTime? ClosedAt { get; set; }
-
-    public string? GrievanceSummary { get; set;  }
+    public string? GrievanceSummary { get; set; }
 
     public string? MatchedGrievanceNumber { get; set; }
 
