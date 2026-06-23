@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Patient_Grievance_and_Complaint_Resolution.Models;
-using Patient_Grievance_and_Complaint_Resolution.Repository.Interface;
+using Patient_Grievance_and_Complaint_Resolution.Repository.Interfaces;
 namespace Patient_Grievance_and_Complaint_Resolution.Repository
 {
     public class UserRepository : IUserRepository

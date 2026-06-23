@@ -1,6 +1,6 @@
 ﻿using Patient_Grievance_and_Complaint_Resolution.DTOs;
 using Patient_Grievance_and_Complaint_Resolution.Models;
-using Patient_Grievance_and_Complaint_Resolution.Repository.Interface;
+using Patient_Grievance_and_Complaint_Resolution.Repository.Interfaces;
 using Microsoft.EntityFrameworkCore;
 using System;
 

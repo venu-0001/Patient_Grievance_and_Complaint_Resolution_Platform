@@ -7,9 +7,9 @@ namespace Patient_Grievance_and_Complaint_Resolution.Repository
 {
     public class ResolutionRepository : IResolutionRepository
     {
-        private readonly AppDbContext _context;
+        private readonly ApplicationDbContext _context;
 
-        public ResolutionRepository(AppDbContext context)
+        public ResolutionRepository(ApplicationDbContext context)
         {
             _context = context;
         }
