@@ -151,6 +151,46 @@ namespace Patient_Grievance_and_Complaint_Resolution.services
 
             assignment.CompletedAt = DateTime.UtcNow;
 
+            if (grievance.ClosedAt == null)
+            {
+
+                return new BadRequestObjectResult(
+                        "Grievance is not closed yet.");
+
+            }
+
+            // ✅ Current grievance resolution duration
+            var currentDuration =
+                grievance.ClosedAt.Value - grievance.CreatedAt;
+
+            // ✅ Case 1: Matched grievance exists
+            if (!string.IsNullOrWhiteSpace(grievance.MatchedGrievanceNumber))
+            {
+                var matchedGrievance =
+                    await _repository.GetGrievanceByNumberAsync(
+                        grievance.MatchedGrievanceNumber,
+                        cancellationToken);
+
+                if (matchedGrievance != null && matchedGrievance.ClosedAt != null)
+                {
+                    var matchedDuration =
+                        matchedGrievance.ClosedAt.Value - matchedGrievance.CreatedAt;
+
+                    grievance.EstimatedTimeSavedHrs =
+                        (decimal)(matchedDuration - currentDuration).TotalHours;
+                }
+            }
+            else
+            {
+                // ✅ Case 2: No matched grievance → SLA logic
+                if (grievance.DueDate != null)
+                {
+                    grievance.EstimatedTimeSavedHrs =
+                        (decimal)(grievance.DueDate.Value - grievance.ClosedAt.Value)
+                            .TotalHours;
+                }
+            }
+
             await _repository.SaveChangesAsync(cancellationToken);
 
             return new OkObjectResult(new
