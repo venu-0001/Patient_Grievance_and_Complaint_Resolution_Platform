@@ -45,9 +45,6 @@ CancellationToken cancellationToken);
         Task SaveChangesAsync(
             CancellationToken cancellationToken);
 
-        Task<Grievance?> GetGrievanceByNumberAsync(
-string grievanceNumber,
-CancellationToken cancellationToken);
 
     }
 
