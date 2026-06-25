@@ -33,6 +33,7 @@ namespace Patient_Grievance_and_Complaint_Resolution.Controllers
             }
 
             return Ok(result);
+
         }
     }
 }

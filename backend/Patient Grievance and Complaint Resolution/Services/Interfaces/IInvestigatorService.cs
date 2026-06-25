@@ -6,14 +6,15 @@ namespace Patient_Grievance_and_Complaint_Resolution.Services.Interfaces
     public interface IInvestigatorService
     {
         Task<IActionResult> GetDashboardAsync(
-            int investigatorId,
+            int UserId,
             CancellationToken cancellationToken);
 
         Task<IActionResult> SubmitResolutionAsync(
-            CreateResolutionDto dto,
-            CancellationToken cancellationToken);
+    CreateResolutionDto dto,
+    int userId,
+    CancellationToken cancellationToken);
         Task<IActionResult> GetDashboardSummaryAsync(
-    int investigatorId,
+    int UserId,
     CancellationToken cancellationToken);
     }
 }

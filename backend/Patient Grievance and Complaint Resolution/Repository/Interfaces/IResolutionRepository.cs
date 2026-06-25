@@ -4,12 +4,15 @@ namespace Patient_Grievance_and_Complaint_Resolution.Repository.Interfaces
 {
     public interface IResolutionRepository
     {
-        // ✅ Existing GET method
         Task<IEnumerable<Resolution>> GetByInvestigatorAsync(
             int investigatorId,
             CancellationToken cancellationToken);
 
-        // ✅ NEW method for POST (add resolution)
+        Task<Resolution?> GetResolutionReportAsync(
+            int resolutionId,
+            int investigatorId,
+            CancellationToken cancellationToken);
+
         Task AddResolutionAsync(
             Resolution resolution,
             CancellationToken cancellationToken);

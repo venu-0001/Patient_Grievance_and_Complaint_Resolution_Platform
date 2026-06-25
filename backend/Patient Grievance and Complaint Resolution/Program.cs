@@ -4,13 +4,14 @@ using Patient_Grievance_and_Complaint_Resolution.Middleware;
 using Patient_Grievance_and_Complaint_Resolution.Models;
 using Patient_Grievance_and_Complaint_Resolution.Repository;
 using Patient_Grievance_and_Complaint_Resolution.Repository.Interfaces;
-using Patient_Grievance_and_Complaint_Resolution.Services;
+
 using Patient_Grievance_and_Complaint_Resolution.Services.Interfaces;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
-using Patient_Grievance_and_Complaint_Resolution.services;
 using QuestPDF.Infrastructure;
+using Patient_Grievance_and_Complaint_Resolution.Services;
+using Patient_Grievance_and_Complaint_Resolution.services;
 
 var builder = WebApplication.CreateBuilder(args);
 QuestPDF.Settings.License = LicenseType.Community;
@@ -31,6 +32,11 @@ builder.Services.AddScoped<IInvestigatorService,
 builder.Services.AddScoped<
     IEscalationService,
     EscalationService>();
+builder.Services.AddScoped<IInvestigatorRepository, InvestigatorRepository>();
+builder.Services.AddScoped<IResolutionRepository, ResolutionRepository>();
+
+builder.Services.AddScoped<IInvestigatorService, InvestigatorService>();
+builder.Services.AddScoped<IResolutionService, ResolutionService>();
 builder.Services.AddHostedService<
     EscalationBackgroundService>();
 builder.Services.AddEndpointsApiExplorer();
@@ -70,8 +76,20 @@ builder.Services.AddAuthentication(
     });
 
 builder.Services.AddAuthorization();
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("FrontendPolicy", policy =>
+    {
+        policy
+            .WithOrigins("http://localhost:5173")
+            .AllowAnyHeader()
+            .AllowAnyMethod()
+            .AllowCredentials();
+    });
+});
 
 var app = builder.Build();
+app.UseCors("FrontendPolicy");
 app.UseMiddleware<GlobalExceptionMiddleware>();
 
 // Configure the HTTP request pipeline.

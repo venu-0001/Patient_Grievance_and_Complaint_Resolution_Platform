@@ -4,11 +4,13 @@ namespace Patient_Grievance_and_Complaint_Resolution.Services.Interfaces
 {
     public interface IResolutionService
     {
-        // ✅ Existing GET service method
         Task<IEnumerable<InvestigatorResolution>> GetMyResolutionsAsync(
-            int investigatorId,
+            int userId,
             CancellationToken cancellationToken);
 
-        // ✅ NEW POST service method
+        Task<byte[]?> DownloadResolutionReportAsync(
+            int resolutionId,
+            int userId,
+            CancellationToken cancellationToken);
     }
 }

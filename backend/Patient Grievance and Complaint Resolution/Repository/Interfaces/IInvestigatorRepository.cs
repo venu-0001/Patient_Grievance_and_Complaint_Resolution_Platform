@@ -34,12 +34,9 @@ CancellationToken cancellationToken);
         Task AddEscalationAsync(
             Escalation escalation,
             CancellationToken cancellationToken);
-        Task<InvestigatorDashboardSummaryDto>
-GetDashboardSummaryAsync(
-    int investigatorId,
-    CancellationToken cancellationToken);
+        Task<InvestigatorDashboardSummaryDto>GetDashboardSummaryAsync(int investigatorId, CancellationToken cancellationToken);
 
-
+        Task<int?> GetInvestigatorByUserIdAsync(int userId,CancellationToken cancellationToken);
 
         Task AddResolutionAsync(
             Resolution resolution,
@@ -50,4 +47,5 @@ GetDashboardSummaryAsync(
 
 
     }
+
 }

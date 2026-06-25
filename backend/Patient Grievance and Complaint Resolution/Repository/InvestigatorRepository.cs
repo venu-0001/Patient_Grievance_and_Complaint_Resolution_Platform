@@ -164,7 +164,7 @@ GetDashboardSummaryAsync(
                 MyAssignments = myAssignments,
                 InProgress = inProgress,
                 DueToday = dueToday,
-                Overdue = overdue,
+                Escalations = overdue,
                 
             };
         }
@@ -180,6 +180,16 @@ GetDashboardSummaryAsync(
             CancellationToken cancellationToken)
         {
             await _context.SaveChangesAsync(cancellationToken);
+        }
+
+        public async Task<int?> GetInvestigatorByUserIdAsync(
+            int userId,
+            CancellationToken cancellationToken)
+        {
+            return await _context.Investigators
+                .Where(i => i.UserId == userId)
+                .Select(i => (int?)i.InvestigatorId)
+                .FirstOrDefaultAsync(cancellationToken);
         }
     }
 }

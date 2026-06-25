@@ -6,7 +6,7 @@
 
     public int DueToday { get; set; }
 
-    public int Overdue { get; set; }
+    public int Escalations { get; set; }
 
     
 }

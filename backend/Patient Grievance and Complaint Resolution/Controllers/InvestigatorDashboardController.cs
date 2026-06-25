@@ -23,39 +23,39 @@ namespace Patient_Grievance_and_Complaint_Resolution.Controllers
         public async Task<IActionResult> GetDashboard(
     CancellationToken cancellationToken)
         {
-            var userIdClaim =
-                User.FindFirst("UserId")?.Value;
+            var userIdClaim = User.FindFirst("UserId")?.Value;
 
-            if (string.IsNullOrEmpty(userIdClaim))
+            if (!int.TryParse(userIdClaim, out int userId))
             {
-                return Unauthorized();
+                return Unauthorized(new
+                {
+                    message = "Invalid or missing UserId in token."
+                });
             }
-
-            int userId = int.Parse(userIdClaim);
 
             return await _service.GetDashboardAsync(
                 userId,
                 cancellationToken);
         }
 
-        [Authorize(Roles = "Investigator")]
         [HttpPost("submit-resolution")]
         public async Task<IActionResult> SubmitResolution(
     [FromBody] CreateResolutionDto dto,
     CancellationToken cancellationToken)
         {
-            var userIdClaim =
-                User.FindFirst("UserId")?.Value;
+            var userIdClaim = User.FindFirst("UserId")?.Value;
 
-            if (string.IsNullOrEmpty(userIdClaim))
+            if (!int.TryParse(userIdClaim, out int userId))
             {
-                return Unauthorized();
+                return Unauthorized(new
+                {
+                    message = "Invalid or missing UserId in token."
+                });
             }
-
-            dto.InvestigatorId = int.Parse(userIdClaim);
 
             return await _service.SubmitResolutionAsync(
                 dto,
+                userId,
                 cancellationToken);
         }
         [Authorize(Roles = "Investigator")]
@@ -66,15 +66,17 @@ namespace Patient_Grievance_and_Complaint_Resolution.Controllers
         {
             var userIdClaim = User.FindFirst("UserId")?.Value;
 
-            if (string.IsNullOrEmpty(userIdClaim))
+            if (!int.TryParse(userIdClaim, out int userId))
             {
-                return Unauthorized();
+                return Unauthorized(new
+                {
+                    message = "Invalid or missing UserId in token."
+                });
             }
-
-            dto.InvestigatorId = int.Parse(userIdClaim);
 
             return await _service.SubmitResolutionAsync(
                 dto,
+                userId,
                 cancellationToken);
         }
         [Authorize(Roles = "Investigator")]

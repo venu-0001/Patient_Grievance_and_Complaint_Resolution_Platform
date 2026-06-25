@@ -4,7 +4,7 @@
     {
         public int GrievanceId { get; set; }
 
-        public int InvestigatorId { get; set; }
+        //public int InvestigatorId { get; set; }
 
         public string? RootCause { get; set; }
 

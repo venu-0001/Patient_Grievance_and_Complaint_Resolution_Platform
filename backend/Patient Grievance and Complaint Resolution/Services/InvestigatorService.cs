@@ -20,16 +20,21 @@ namespace Patient_Grievance_and_Complaint_Resolution.services
         }
 
         public async Task<IActionResult> GetDashboardAsync(
-    int investigatorId,
+    int userId,
     CancellationToken cancellationToken)
         {
-            _logger.LogInformation(
-                "Fetching dashboard for investigator {Id}",
-                investigatorId);
+            var investigatorId =await  _repository.GetInvestigatorByUserIdAsync(userId,cancellationToken);
+            if (!investigatorId.HasValue)
+            {
+                return new NotFoundObjectResult(new
+                {
+                    message = "No investigator profile is linked to this user."
+                });
+            }
 
             var dashboardData =
                 await _repository.GetDashboardDataAsync(
-                    investigatorId,
+                    investigatorId??0,
                     cancellationToken);
 
             if (dashboardData == null || !dashboardData.Any())
@@ -43,64 +48,97 @@ namespace Patient_Grievance_and_Complaint_Resolution.services
 
         public async Task<IActionResult> SubmitResolutionAsync(
     CreateResolutionDto dto,
+    int userId,
     CancellationToken cancellationToken)
         {
             _logger.LogInformation(
-                "Submitting resolution for grievance {Id}",
-                dto.GrievanceId);
+                "Submitting resolution for grievance {GrievanceId} by user {UserId}",
+                dto.GrievanceId,
+                userId);
 
-            var grievance =
-                await _repository.GetGrievanceByIdAsync(
-                    dto.GrievanceId,
-                    cancellationToken);
+            // Convert JWT UserId -> InvestigatorId.
+            var investigatorId = await _repository.GetInvestigatorByUserIdAsync(
+                userId,
+                cancellationToken);
+
+            if (!investigatorId.HasValue)
+            {
+                return new NotFoundObjectResult(new
+                {
+                    message = "No investigator profile is linked to this user."
+                });
+            }
+
+            var grievance = await _repository.GetGrievanceByIdAsync(
+                dto.GrievanceId,
+                cancellationToken);
 
             if (grievance == null)
             {
-                return new NotFoundObjectResult(
-                    "Grievance not found.");
+                return new NotFoundObjectResult(new
+                {
+                    message = "Grievance not found."
+                });
             }
 
-            var existingResolution =
-                await _repository.GetResolutionByGrievanceIdAsync(
-                    dto.GrievanceId,
-                    cancellationToken);
+            var existingResolution = await _repository.GetResolutionByGrievanceIdAsync(
+                dto.GrievanceId,
+                cancellationToken);
 
             if (existingResolution != null)
             {
-                return new BadRequestObjectResult(
-                    "Resolution already submitted.");
+                return new BadRequestObjectResult(new
+                {
+                    message = "Resolution already submitted for this grievance."
+                });
             }
 
-            var assignment =
-                await _repository.GetAssignmentByGrievanceIdAsync(
-                    dto.GrievanceId,
-                    cancellationToken);
+            var assignment = await _repository.GetAssignmentByGrievanceIdAsync(
+                dto.GrievanceId,
+                cancellationToken);
 
             if (assignment == null)
             {
-                return new NotFoundObjectResult(
-                    "Assignment not found.");
+                return new NotFoundObjectResult(new
+                {
+                    message = "Assignment not found for this grievance."
+                });
             }
 
-            var closedStatusId =
-                await _repository.GetStatusIdByNameAsync(
-                    "Closed",
-                    cancellationToken);
+            // Security check: investigator can close only their own assigned grievance.
+            if (assignment.InvestigatorId != investigatorId.Value)
+            {
+                return new ForbidResult();
+            }
+
+            var closedStatusId = await _repository.GetStatusIdByNameAsync(
+                "Closed",
+                cancellationToken);
 
             if (closedStatusId == 0)
             {
-                return new NotFoundObjectResult(
-                    "Closed status not configured.");
+                return new NotFoundObjectResult(new
+                {
+                    message = "Closed status is not configured in the Status table."
+                });
             }
 
             var resolution = new Resolution
             {
                 GrievanceId = dto.GrievanceId,
-                InvestigatorId = dto.InvestigatorId,
-                RootCause = dto.RootCause,
-                ResolutionSummary = dto.ResolutionSummary,
-                PreventiveAction = dto.PreventiveAction,
-                CorrectiveAction = dto.CorrectiveAction,
+                InvestigatorId = investigatorId.Value,
+
+                RootCause = dto.RootCause?.Trim() ?? string.Empty,
+                CorrectiveAction = dto.CorrectiveAction?.Trim() ?? string.Empty,
+                PreventiveAction = dto.PreventiveAction?.Trim() ?? string.Empty,
+
+                ResolutionSummary = string.IsNullOrWhiteSpace(dto.ResolutionSummary)
+                    ? "Grievance investigated and resolved by the assigned investigator."
+                    : dto.ResolutionSummary.Trim(),
+
+                // Admin approval happens later, so keep it null.
+                ApprovedByAdminId = null,
+
                 ResolvedAt = DateTime.UtcNow
             };
 
@@ -113,40 +151,59 @@ namespace Patient_Grievance_and_Complaint_Resolution.services
 
             assignment.CompletedAt = DateTime.UtcNow;
 
-            await _repository.SaveChangesAsync(
-                cancellationToken);
-
-            _logger.LogInformation(
-                "Grievance {Id} closed successfully",
-                dto.GrievanceId);
+            await _repository.SaveChangesAsync(cancellationToken);
 
             return new OkObjectResult(new
             {
-                Success = true,
-                GrievanceId = dto.GrievanceId,
-                Status = "Closed",
-                Message = "Grievance Closed Successfully"
+                success = true,
+                grievanceId = dto.GrievanceId,
+                resolutionId = resolution.ResolutionId,
+                status = "Closed",
+                message = "Grievance closed successfully."
             });
-
         }
-        public async Task<IActionResult>
-GetDashboardSummaryAsync(
-    int investigatorId,
+        public async Task<IActionResult> GetDashboardSummaryAsync(
+    int userId,
     CancellationToken cancellationToken)
         {
             _logger.LogInformation(
-                "Fetching dashboard summary for investigator {Id}",
-                investigatorId);
+                "Fetching dashboard summary for user {UserId}",
+                userId);
 
-            var summary =
-                await _repository.GetDashboardSummaryAsync(
-                    investigatorId,
-                    cancellationToken);
+            // Step 1: Get InvestigatorId using logged-in UserId
+            var investigatorId = await _repository.GetInvestigatorByUserIdAsync(
+                userId,
+                cancellationToken);
 
+            // If this user is not linked to an investigator profile
+            if (!investigatorId.HasValue)
+            {
+                return new NotFoundObjectResult(new
+                {
+                    message = "No investigator profile is linked to this logged-in user."
+                });
+            }
+
+            _logger.LogInformation(
+                "Investigator {InvestigatorId} found for user {UserId}",
+                investigatorId.Value,
+                userId);
+
+            // Step 2: Fetch summary using InvestigatorId
+            var summary = await _repository.GetDashboardSummaryAsync(
+                investigatorId.Value,
+                cancellationToken);
+
+            // For dashboard summary, return zeros instead of 404
             if (summary == null)
             {
-                return new NotFoundObjectResult(
-                    "No dashboard data found");
+                return new OkObjectResult(new InvestigatorDashboardSummaryDto
+                {
+                    MyAssignments = 0,
+                    InProgress = 0,
+                    DueToday = 0,
+                    Escalations = 0
+                });
             }
 
             return new OkObjectResult(summary);

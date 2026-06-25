@@ -19,7 +19,7 @@ public partial class Resolution
 
     public string? ResolutionSummary { get; set; }
 
-    public int? ApprovedByAdminId { get; set; }
+    public int? ApprovedByAdminId { get; set; } = null!;
 
     public DateTime ResolvedAt { get; set; }
 
