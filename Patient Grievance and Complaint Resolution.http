@@ -1,6 +1,0 @@
-@Patient_Grievance_and_Complaint_Resolution_HostAddress = http://localhost:5196
-
-GET {{Patient_Grievance_and_Complaint_Resolution_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###
