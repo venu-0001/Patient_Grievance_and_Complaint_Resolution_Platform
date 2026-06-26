@@ -1,0 +1,76 @@
+[
+  {
+    "ContainingType": "Patient_Grievance_and_Complaint_Resolution.Controllers.CategoryController",
+    "Method": "GetCategories",
+    "RelativePath": "api/Category",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Patient_Grievance_and_Complaint_Resolution.Controllers.ComplaintController",
+    "Method": "GetPatientGrievances",
+    "RelativePath": "api/Complaint/PatientComplaintRequest",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "PatientId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Patient_Grievance_and_Complaint_Resolution.Controllers.EncountersController",
+    "Method": "GetEncounterDates",
+    "RelativePath": "api/Encounters",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "patientId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Patient_Grievance_and_Complaint_Resolution.Controllers.GrievanceController",
+    "Method": "SubmitGrievance",
+    "RelativePath": "api/Grievance",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Patient_Grievance_and_Complaint_Resolution.DTOs.PatientGrievanceRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Patient_Grievance_and_Complaint_Resolution.Controllers.GrievanceController",
+    "Method": "GetPatientGrievances",
+    "RelativePath": "api/Grievance/PatientGrievanceRequest",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "PatientId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

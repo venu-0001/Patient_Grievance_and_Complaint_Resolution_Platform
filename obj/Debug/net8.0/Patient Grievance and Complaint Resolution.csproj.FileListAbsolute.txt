@@ -1,0 +1,313 @@
+C:\Surya\Project\Patient Grievance and Complaint Resolution\Patient Grievance and Complaint Resolution\obj\Debug\net8.0\Patient Grievance and Complaint Resolution.csproj.AssemblyReference.cache
+C:\Surya\Project\Patient Grievance and Complaint Resolution\Patient Grievance and Complaint Resolution\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Surya\Project\Patient Grievance and Complaint Resolution\Patient Grievance and Complaint Resolution\obj\Debug\net8.0\Patient Grievance and Complaint Resolution.GeneratedMSBuildEditorConfig.editorconfig
+C:\Surya\Project\Patient Grievance and Complaint Resolution\Patient Grievance and Complaint Resolution\obj\Debug\net8.0\Patient Grievance and Complaint Resolution.AssemblyInfoInputs.cache
+C:\Surya\Project\Patient Grievance and Complaint Resolution\Patient Grievance and Complaint Resolution\obj\Debug\net8.0\Patient Grievance and Complaint Resolution.AssemblyInfo.cs
+C:\Surya\Project\Patient Grievance and Complaint Resolution\Patient Grievance and Complaint Resolution\obj\Debug\net8.0\Patient Grievance and Complaint Resolution.csproj.CoreCompileInputs.cache
+C:\Surya\Project\Patient Grievance and Complaint Resolution\Patient Grievance and Complaint Resolution\obj\Debug\net8.0\Patient Grievance and Complaint Resolution.MvcApplicationPartsAssemblyInfo.cs
+C:\Surya\Project\Patient Grievance and Complaint Resolution\Patient Grievance and Complaint Resolution\obj\Debug\net8.0\Patient Grievance and Complaint Resolution.MvcApplicationPartsAssemblyInfo.cache
+C:\Surya\Project\Patient Grievance and Complaint Resolution\Patient Grievance and Complaint Resolution\obj\Debug\net8.0\Patient Grievance and Complaint Resolution.sourcelink.json
+C:\Surya\Project\Patient Grievance and Complaint Resolution\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\appsettings.json
+C:\Surya\Project\Patient Grievance and Complaint Resolution\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\Patient Grievance and Complaint Resolution.staticwebassets.endpoints.json
+C:\Surya\Project\Patient Grievance and Complaint Resolution\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\Patient Grievance and Complaint Resolution.exe
+C:\Surya\Project\Patient Grievance and Complaint Resolution\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\Patient Grievance and Complaint Resolution.deps.json
+C:\Surya\Project\Patient Grievance and Complaint Resolution\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\Patient Grievance and Complaint Resolution.runtimeconfig.json
+C:\Surya\Project\Patient Grievance and Complaint Resolution\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\Patient Grievance and Complaint Resolution.dll
+C:\Surya\Project\Patient Grievance and Complaint Resolution\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\Patient Grievance and Complaint Resolution.pdb
+C:\Surya\Project\Patient Grievance and Complaint Resolution\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\Azure.Core.dll
+C:\Surya\Project\Patient Grievance and Complaint Resolution\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\Azure.Identity.dll
+C:\Surya\Project\Patient Grievance and Complaint Resolution\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\Humanizer.dll
+C:\Surya\Project\Patient Grievance and Complaint Resolution\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Surya\Project\Patient Grievance and Complaint Resolution\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+C:\Surya\Project\Patient Grievance and Complaint Resolution\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Surya\Project\Patient Grievance and Complaint Resolution\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Surya\Project\Patient Grievance and Complaint Resolution\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Surya\Project\Patient Grievance and Complaint Resolution\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+C:\Surya\Project\Patient Grievance and Complaint Resolution\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Surya\Project\Patient Grievance and Complaint Resolution\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Surya\Project\Patient Grievance and Complaint Resolution\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Surya\Project\Patient Grievance and Complaint Resolution\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Surya\Project\Patient Grievance and Complaint Resolution\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Surya\Project\Patient Grievance and Complaint Resolution\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Surya\Project\Patient Grievance and Complaint Resolution\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Surya\Project\Patient Grievance and Complaint Resolution\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Surya\Project\Patient Grievance and Complaint Resolution\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+C:\Surya\Project\Patient Grievance and Complaint Resolution\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+C:\Surya\Project\Patient Grievance and Complaint Resolution\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Surya\Project\Patient Grievance and Complaint Resolution\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Surya\Project\Patient Grievance and Complaint Resolution\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+C:\Surya\Project\Patient Grievance and Complaint Resolution\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Surya\Project\Patient Grievance and Complaint Resolution\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Surya\Project\Patient Grievance and Complaint Resolution\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Surya\Project\Patient Grievance and Complaint Resolution\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Surya\Project\Patient Grievance and Complaint Resolution\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Surya\Project\Patient Grievance and Complaint Resolution\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Surya\Project\Patient Grievance and Complaint Resolution\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Surya\Project\Patient Grievance and Complaint Resolution\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Surya\Project\Patient Grievance and Complaint Resolution\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+C:\Surya\Project\Patient Grievance and Complaint Resolution\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\Surya\Project\Patient Grievance and Complaint Resolution\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\Mono.TextTemplating.dll
+C:\Surya\Project\Patient Grievance and Complaint Resolution\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Surya\Project\Patient Grievance and Complaint Resolution\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Surya\Project\Patient Grievance and Complaint Resolution\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Surya\Project\Patient Grievance and Complaint Resolution\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\System.ClientModel.dll
+C:\Surya\Project\Patient Grievance and Complaint Resolution\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\System.CodeDom.dll
+C:\Surya\Project\Patient Grievance and Complaint Resolution\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+C:\Surya\Project\Patient Grievance and Complaint Resolution\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\System.Composition.Convention.dll
+C:\Surya\Project\Patient Grievance and Complaint Resolution\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\System.Composition.Hosting.dll
+C:\Surya\Project\Patient Grievance and Complaint Resolution\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\System.Composition.Runtime.dll
+C:\Surya\Project\Patient Grievance and Complaint Resolution\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\System.Composition.TypedParts.dll
+C:\Surya\Project\Patient Grievance and Complaint Resolution\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Surya\Project\Patient Grievance and Complaint Resolution\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\System.Drawing.Common.dll
+C:\Surya\Project\Patient Grievance and Complaint Resolution\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Surya\Project\Patient Grievance and Complaint Resolution\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\System.Memory.Data.dll
+C:\Surya\Project\Patient Grievance and Complaint Resolution\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\System.Runtime.Caching.dll
+C:\Surya\Project\Patient Grievance and Complaint Resolution\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Surya\Project\Patient Grievance and Complaint Resolution\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\System.Security.Permissions.dll
+C:\Surya\Project\Patient Grievance and Complaint Resolution\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\System.Windows.Extensions.dll
+C:\Surya\Project\Patient Grievance and Complaint Resolution\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Surya\Project\Patient Grievance and Complaint Resolution\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Surya\Project\Patient Grievance and Complaint Resolution\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Surya\Project\Patient Grievance and Complaint Resolution\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Surya\Project\Patient Grievance and Complaint Resolution\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Surya\Project\Patient Grievance and Complaint Resolution\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Surya\Project\Patient Grievance and Complaint Resolution\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Surya\Project\Patient Grievance and Complaint Resolution\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Surya\Project\Patient Grievance and Complaint Resolution\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Surya\Project\Patient Grievance and Complaint Resolution\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Surya\Project\Patient Grievance and Complaint Resolution\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Surya\Project\Patient Grievance and Complaint Resolution\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Surya\Project\Patient Grievance and Complaint Resolution\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Surya\Project\Patient Grievance and Complaint Resolution\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Surya\Project\Patient Grievance and Complaint Resolution\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Surya\Project\Patient Grievance and Complaint Resolution\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Surya\Project\Patient Grievance and Complaint Resolution\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Surya\Project\Patient Grievance and Complaint Resolution\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Surya\Project\Patient Grievance and Complaint Resolution\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Surya\Project\Patient Grievance and Complaint Resolution\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Surya\Project\Patient Grievance and Complaint Resolution\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Surya\Project\Patient Grievance and Complaint Resolution\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Surya\Project\Patient Grievance and Complaint Resolution\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Surya\Project\Patient Grievance and Complaint Resolution\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Surya\Project\Patient Grievance and Complaint Resolution\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Surya\Project\Patient Grievance and Complaint Resolution\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Surya\Project\Patient Grievance and Complaint Resolution\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Surya\Project\Patient Grievance and Complaint Resolution\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Surya\Project\Patient Grievance and Complaint Resolution\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Surya\Project\Patient Grievance and Complaint Resolution\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Surya\Project\Patient Grievance and Complaint Resolution\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Surya\Project\Patient Grievance and Complaint Resolution\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Surya\Project\Patient Grievance and Complaint Resolution\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Surya\Project\Patient Grievance and Complaint Resolution\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Surya\Project\Patient Grievance and Complaint Resolution\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Surya\Project\Patient Grievance and Complaint Resolution\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Surya\Project\Patient Grievance and Complaint Resolution\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Surya\Project\Patient Grievance and Complaint Resolution\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Surya\Project\Patient Grievance and Complaint Resolution\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Surya\Project\Patient Grievance and Complaint Resolution\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Surya\Project\Patient Grievance and Complaint Resolution\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Surya\Project\Patient Grievance and Complaint Resolution\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Surya\Project\Patient Grievance and Complaint Resolution\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Surya\Project\Patient Grievance and Complaint Resolution\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Surya\Project\Patient Grievance and Complaint Resolution\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Surya\Project\Patient Grievance and Complaint Resolution\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Surya\Project\Patient Grievance and Complaint Resolution\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Surya\Project\Patient Grievance and Complaint Resolution\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Surya\Project\Patient Grievance and Complaint Resolution\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Surya\Project\Patient Grievance and Complaint Resolution\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Surya\Project\Patient Grievance and Complaint Resolution\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Surya\Project\Patient Grievance and Complaint Resolution\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Surya\Project\Patient Grievance and Complaint Resolution\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Surya\Project\Patient Grievance and Complaint Resolution\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Surya\Project\Patient Grievance and Complaint Resolution\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Surya\Project\Patient Grievance and Complaint Resolution\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Surya\Project\Patient Grievance and Complaint Resolution\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Surya\Project\Patient Grievance and Complaint Resolution\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Surya\Project\Patient Grievance and Complaint Resolution\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Surya\Project\Patient Grievance and Complaint Resolution\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Surya\Project\Patient Grievance and Complaint Resolution\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Surya\Project\Patient Grievance and Complaint Resolution\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Surya\Project\Patient Grievance and Complaint Resolution\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Surya\Project\Patient Grievance and Complaint Resolution\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Surya\Project\Patient Grievance and Complaint Resolution\Patient Grievance and Complaint Resolution\obj\Debug\net8.0\rjimswa.dswa.cache.json
+C:\Surya\Project\Patient Grievance and Complaint Resolution\Patient Grievance and Complaint Resolution\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+C:\Surya\Project\Patient Grievance and Complaint Resolution\Patient Grievance and Complaint Resolution\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+C:\Surya\Project\Patient Grievance and Complaint Resolution\Patient Grievance and Complaint Resolution\obj\Debug\net8.0\scopedcss\bundle\Patient Grievance and Complaint Resolution.styles.css
+C:\Surya\Project\Patient Grievance and Complaint Resolution\Patient Grievance and Complaint Resolution\obj\Debug\net8.0\staticwebassets.build.json
+C:\Surya\Project\Patient Grievance and Complaint Resolution\Patient Grievance and Complaint Resolution\obj\Debug\net8.0\staticwebassets.build.json.cache
+C:\Surya\Project\Patient Grievance and Complaint Resolution\Patient Grievance and Complaint Resolution\obj\Debug\net8.0\staticwebassets.development.json
+C:\Surya\Project\Patient Grievance and Complaint Resolution\Patient Grievance and Complaint Resolution\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Surya\Project\Patient Grievance and Complaint Resolution\Patient Grievance and Complaint Resolution\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Surya\Project\Patient Grievance and Complaint Resolution\Patient Grievance and Complaint Resolution\obj\Debug\net8.0\Patient .F3899DAC.Up2Date
+C:\Surya\Project\Patient Grievance and Complaint Resolution\Patient Grievance and Complaint Resolution\obj\Debug\net8.0\Patient Grievance and Complaint Resolution.dll
+C:\Surya\Project\Patient Grievance and Complaint Resolution\Patient Grievance and Complaint Resolution\obj\Debug\net8.0\refint\Patient Grievance and Complaint Resolution.dll
+C:\Surya\Project\Patient Grievance and Complaint Resolution\Patient Grievance and Complaint Resolution\obj\Debug\net8.0\Patient Grievance and Complaint Resolution.pdb
+C:\Surya\Project\Patient Grievance and Complaint Resolution\Patient Grievance and Complaint Resolution\obj\Debug\net8.0\Patient Grievance and Complaint Resolution.genruntimeconfig.cache
+C:\Surya\Project\Patient Grievance and Complaint Resolution\Patient Grievance and Complaint Resolution\obj\Debug\net8.0\ref\Patient Grievance and Complaint Resolution.dll
+C:\Surya\Patient_Grievance_and_Complaint_Resolution_Platform\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\appsettings.json
+C:\Surya\Patient_Grievance_and_Complaint_Resolution_Platform\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\Patient Grievance and Complaint Resolution.staticwebassets.endpoints.json
+C:\Surya\Patient_Grievance_and_Complaint_Resolution_Platform\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\Patient Grievance and Complaint Resolution.exe
+C:\Surya\Patient_Grievance_and_Complaint_Resolution_Platform\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\Patient Grievance and Complaint Resolution.deps.json
+C:\Surya\Patient_Grievance_and_Complaint_Resolution_Platform\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\Patient Grievance and Complaint Resolution.runtimeconfig.json
+C:\Surya\Patient_Grievance_and_Complaint_Resolution_Platform\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\Patient Grievance and Complaint Resolution.dll
+C:\Surya\Patient_Grievance_and_Complaint_Resolution_Platform\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\Patient Grievance and Complaint Resolution.pdb
+C:\Surya\Patient_Grievance_and_Complaint_Resolution_Platform\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\Azure.Core.dll
+C:\Surya\Patient_Grievance_and_Complaint_Resolution_Platform\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\Azure.Identity.dll
+C:\Surya\Patient_Grievance_and_Complaint_Resolution_Platform\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\Humanizer.dll
+C:\Surya\Patient_Grievance_and_Complaint_Resolution_Platform\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Surya\Patient_Grievance_and_Complaint_Resolution_Platform\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+C:\Surya\Patient_Grievance_and_Complaint_Resolution_Platform\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Surya\Patient_Grievance_and_Complaint_Resolution_Platform\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Surya\Patient_Grievance_and_Complaint_Resolution_Platform\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Surya\Patient_Grievance_and_Complaint_Resolution_Platform\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+C:\Surya\Patient_Grievance_and_Complaint_Resolution_Platform\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Surya\Patient_Grievance_and_Complaint_Resolution_Platform\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Surya\Patient_Grievance_and_Complaint_Resolution_Platform\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Surya\Patient_Grievance_and_Complaint_Resolution_Platform\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Surya\Patient_Grievance_and_Complaint_Resolution_Platform\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Surya\Patient_Grievance_and_Complaint_Resolution_Platform\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Surya\Patient_Grievance_and_Complaint_Resolution_Platform\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Surya\Patient_Grievance_and_Complaint_Resolution_Platform\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Surya\Patient_Grievance_and_Complaint_Resolution_Platform\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+C:\Surya\Patient_Grievance_and_Complaint_Resolution_Platform\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+C:\Surya\Patient_Grievance_and_Complaint_Resolution_Platform\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Surya\Patient_Grievance_and_Complaint_Resolution_Platform\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Surya\Patient_Grievance_and_Complaint_Resolution_Platform\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+C:\Surya\Patient_Grievance_and_Complaint_Resolution_Platform\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Surya\Patient_Grievance_and_Complaint_Resolution_Platform\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Surya\Patient_Grievance_and_Complaint_Resolution_Platform\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Surya\Patient_Grievance_and_Complaint_Resolution_Platform\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Surya\Patient_Grievance_and_Complaint_Resolution_Platform\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Surya\Patient_Grievance_and_Complaint_Resolution_Platform\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Surya\Patient_Grievance_and_Complaint_Resolution_Platform\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Surya\Patient_Grievance_and_Complaint_Resolution_Platform\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Surya\Patient_Grievance_and_Complaint_Resolution_Platform\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+C:\Surya\Patient_Grievance_and_Complaint_Resolution_Platform\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\Surya\Patient_Grievance_and_Complaint_Resolution_Platform\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\Mono.TextTemplating.dll
+C:\Surya\Patient_Grievance_and_Complaint_Resolution_Platform\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Surya\Patient_Grievance_and_Complaint_Resolution_Platform\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Surya\Patient_Grievance_and_Complaint_Resolution_Platform\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Surya\Patient_Grievance_and_Complaint_Resolution_Platform\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\System.ClientModel.dll
+C:\Surya\Patient_Grievance_and_Complaint_Resolution_Platform\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\System.CodeDom.dll
+C:\Surya\Patient_Grievance_and_Complaint_Resolution_Platform\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+C:\Surya\Patient_Grievance_and_Complaint_Resolution_Platform\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\System.Composition.Convention.dll
+C:\Surya\Patient_Grievance_and_Complaint_Resolution_Platform\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\System.Composition.Hosting.dll
+C:\Surya\Patient_Grievance_and_Complaint_Resolution_Platform\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\System.Composition.Runtime.dll
+C:\Surya\Patient_Grievance_and_Complaint_Resolution_Platform\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\System.Composition.TypedParts.dll
+C:\Surya\Patient_Grievance_and_Complaint_Resolution_Platform\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Surya\Patient_Grievance_and_Complaint_Resolution_Platform\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\System.Drawing.Common.dll
+C:\Surya\Patient_Grievance_and_Complaint_Resolution_Platform\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Surya\Patient_Grievance_and_Complaint_Resolution_Platform\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\System.Memory.Data.dll
+C:\Surya\Patient_Grievance_and_Complaint_Resolution_Platform\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\System.Runtime.Caching.dll
+C:\Surya\Patient_Grievance_and_Complaint_Resolution_Platform\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Surya\Patient_Grievance_and_Complaint_Resolution_Platform\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\System.Security.Permissions.dll
+C:\Surya\Patient_Grievance_and_Complaint_Resolution_Platform\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\System.Windows.Extensions.dll
+C:\Surya\Patient_Grievance_and_Complaint_Resolution_Platform\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Surya\Patient_Grievance_and_Complaint_Resolution_Platform\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Surya\Patient_Grievance_and_Complaint_Resolution_Platform\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Surya\Patient_Grievance_and_Complaint_Resolution_Platform\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Surya\Patient_Grievance_and_Complaint_Resolution_Platform\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Surya\Patient_Grievance_and_Complaint_Resolution_Platform\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Surya\Patient_Grievance_and_Complaint_Resolution_Platform\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Surya\Patient_Grievance_and_Complaint_Resolution_Platform\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Surya\Patient_Grievance_and_Complaint_Resolution_Platform\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Surya\Patient_Grievance_and_Complaint_Resolution_Platform\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Surya\Patient_Grievance_and_Complaint_Resolution_Platform\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Surya\Patient_Grievance_and_Complaint_Resolution_Platform\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Surya\Patient_Grievance_and_Complaint_Resolution_Platform\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Surya\Patient_Grievance_and_Complaint_Resolution_Platform\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Surya\Patient_Grievance_and_Complaint_Resolution_Platform\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Surya\Patient_Grievance_and_Complaint_Resolution_Platform\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Surya\Patient_Grievance_and_Complaint_Resolution_Platform\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Surya\Patient_Grievance_and_Complaint_Resolution_Platform\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Surya\Patient_Grievance_and_Complaint_Resolution_Platform\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Surya\Patient_Grievance_and_Complaint_Resolution_Platform\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Surya\Patient_Grievance_and_Complaint_Resolution_Platform\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Surya\Patient_Grievance_and_Complaint_Resolution_Platform\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Surya\Patient_Grievance_and_Complaint_Resolution_Platform\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Surya\Patient_Grievance_and_Complaint_Resolution_Platform\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Surya\Patient_Grievance_and_Complaint_Resolution_Platform\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Surya\Patient_Grievance_and_Complaint_Resolution_Platform\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Surya\Patient_Grievance_and_Complaint_Resolution_Platform\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Surya\Patient_Grievance_and_Complaint_Resolution_Platform\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Surya\Patient_Grievance_and_Complaint_Resolution_Platform\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Surya\Patient_Grievance_and_Complaint_Resolution_Platform\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Surya\Patient_Grievance_and_Complaint_Resolution_Platform\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Surya\Patient_Grievance_and_Complaint_Resolution_Platform\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Surya\Patient_Grievance_and_Complaint_Resolution_Platform\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Surya\Patient_Grievance_and_Complaint_Resolution_Platform\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Surya\Patient_Grievance_and_Complaint_Resolution_Platform\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Surya\Patient_Grievance_and_Complaint_Resolution_Platform\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Surya\Patient_Grievance_and_Complaint_Resolution_Platform\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Surya\Patient_Grievance_and_Complaint_Resolution_Platform\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Surya\Patient_Grievance_and_Complaint_Resolution_Platform\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Surya\Patient_Grievance_and_Complaint_Resolution_Platform\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Surya\Patient_Grievance_and_Complaint_Resolution_Platform\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Surya\Patient_Grievance_and_Complaint_Resolution_Platform\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Surya\Patient_Grievance_and_Complaint_Resolution_Platform\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Surya\Patient_Grievance_and_Complaint_Resolution_Platform\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Surya\Patient_Grievance_and_Complaint_Resolution_Platform\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Surya\Patient_Grievance_and_Complaint_Resolution_Platform\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Surya\Patient_Grievance_and_Complaint_Resolution_Platform\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Surya\Patient_Grievance_and_Complaint_Resolution_Platform\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Surya\Patient_Grievance_and_Complaint_Resolution_Platform\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Surya\Patient_Grievance_and_Complaint_Resolution_Platform\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Surya\Patient_Grievance_and_Complaint_Resolution_Platform\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Surya\Patient_Grievance_and_Complaint_Resolution_Platform\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Surya\Patient_Grievance_and_Complaint_Resolution_Platform\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Surya\Patient_Grievance_and_Complaint_Resolution_Platform\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Surya\Patient_Grievance_and_Complaint_Resolution_Platform\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Surya\Patient_Grievance_and_Complaint_Resolution_Platform\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Surya\Patient_Grievance_and_Complaint_Resolution_Platform\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Surya\Patient_Grievance_and_Complaint_Resolution_Platform\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Surya\Patient_Grievance_and_Complaint_Resolution_Platform\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Surya\Patient_Grievance_and_Complaint_Resolution_Platform\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Surya\Patient_Grievance_and_Complaint_Resolution_Platform\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Surya\Patient_Grievance_and_Complaint_Resolution_Platform\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Surya\Patient_Grievance_and_Complaint_Resolution_Platform\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Surya\Patient_Grievance_and_Complaint_Resolution_Platform\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Surya\Patient_Grievance_and_Complaint_Resolution_Platform\Patient Grievance and Complaint Resolution\obj\Debug\net8.0\Patient Grievance and Complaint Resolution.csproj.AssemblyReference.cache
+C:\Surya\Patient_Grievance_and_Complaint_Resolution_Platform\Patient Grievance and Complaint Resolution\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Surya\Patient_Grievance_and_Complaint_Resolution_Platform\Patient Grievance and Complaint Resolution\obj\Debug\net8.0\Patient Grievance and Complaint Resolution.GeneratedMSBuildEditorConfig.editorconfig
+C:\Surya\Patient_Grievance_and_Complaint_Resolution_Platform\Patient Grievance and Complaint Resolution\obj\Debug\net8.0\Patient Grievance and Complaint Resolution.AssemblyInfoInputs.cache
+C:\Surya\Patient_Grievance_and_Complaint_Resolution_Platform\Patient Grievance and Complaint Resolution\obj\Debug\net8.0\Patient Grievance and Complaint Resolution.AssemblyInfo.cs
+C:\Surya\Patient_Grievance_and_Complaint_Resolution_Platform\Patient Grievance and Complaint Resolution\obj\Debug\net8.0\Patient Grievance and Complaint Resolution.csproj.CoreCompileInputs.cache
+C:\Surya\Patient_Grievance_and_Complaint_Resolution_Platform\Patient Grievance and Complaint Resolution\obj\Debug\net8.0\Patient Grievance and Complaint Resolution.MvcApplicationPartsAssemblyInfo.cs
+C:\Surya\Patient_Grievance_and_Complaint_Resolution_Platform\Patient Grievance and Complaint Resolution\obj\Debug\net8.0\Patient Grievance and Complaint Resolution.MvcApplicationPartsAssemblyInfo.cache
+C:\Surya\Patient_Grievance_and_Complaint_Resolution_Platform\Patient Grievance and Complaint Resolution\obj\Debug\net8.0\Patient Grievance and Complaint Resolution.sourcelink.json
+C:\Surya\Patient_Grievance_and_Complaint_Resolution_Platform\Patient Grievance and Complaint Resolution\obj\Debug\net8.0\rjimswa.dswa.cache.json
+C:\Surya\Patient_Grievance_and_Complaint_Resolution_Platform\Patient Grievance and Complaint Resolution\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+C:\Surya\Patient_Grievance_and_Complaint_Resolution_Platform\Patient Grievance and Complaint Resolution\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+C:\Surya\Patient_Grievance_and_Complaint_Resolution_Platform\Patient Grievance and Complaint Resolution\obj\Debug\net8.0\scopedcss\bundle\Patient Grievance and Complaint Resolution.styles.css
+C:\Surya\Patient_Grievance_and_Complaint_Resolution_Platform\Patient Grievance and Complaint Resolution\obj\Debug\net8.0\staticwebassets.build.json
+C:\Surya\Patient_Grievance_and_Complaint_Resolution_Platform\Patient Grievance and Complaint Resolution\obj\Debug\net8.0\staticwebassets.build.json.cache
+C:\Surya\Patient_Grievance_and_Complaint_Resolution_Platform\Patient Grievance and Complaint Resolution\obj\Debug\net8.0\staticwebassets.development.json
+C:\Surya\Patient_Grievance_and_Complaint_Resolution_Platform\Patient Grievance and Complaint Resolution\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Surya\Patient_Grievance_and_Complaint_Resolution_Platform\Patient Grievance and Complaint Resolution\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Surya\Patient_Grievance_and_Complaint_Resolution_Platform\Patient Grievance and Complaint Resolution\obj\Debug\net8.0\Patient .F3899DAC.Up2Date
+C:\Surya\Patient_Grievance_and_Complaint_Resolution_Platform\Patient Grievance and Complaint Resolution\obj\Debug\net8.0\Patient Grievance and Complaint Resolution.dll
+C:\Surya\Patient_Grievance_and_Complaint_Resolution_Platform\Patient Grievance and Complaint Resolution\obj\Debug\net8.0\refint\Patient Grievance and Complaint Resolution.dll
+C:\Surya\Patient_Grievance_and_Complaint_Resolution_Platform\Patient Grievance and Complaint Resolution\obj\Debug\net8.0\Patient Grievance and Complaint Resolution.pdb
+C:\Surya\Patient_Grievance_and_Complaint_Resolution_Platform\Patient Grievance and Complaint Resolution\obj\Debug\net8.0\Patient Grievance and Complaint Resolution.genruntimeconfig.cache
+C:\Surya\Patient_Grievance_and_Complaint_Resolution_Platform\Patient Grievance and Complaint Resolution\obj\Debug\net8.0\ref\Patient Grievance and Complaint Resolution.dll
+C:\Surya\Patient_Grievance_and_Complaint_Resolution_Platform\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\Microsoft.Extensions.Configuration.dll
+C:\Surya\Patient_Grievance_and_Complaint_Resolution_Platform\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Surya\Patient_Grievance_and_Complaint_Resolution_Platform\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Binder.dll
+C:\Surya\Patient_Grievance_and_Complaint_Resolution_Platform\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.Abstractions.dll
+C:\Surya\Patient_Grievance_and_Complaint_Resolution_Platform\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Surya\Patient_Grievance_and_Complaint_Resolution_Platform\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\Surya\Patient_Grievance_and_Complaint_Resolution_Platform\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+C:\Surya\Patient_Grievance_and_Complaint_Resolution_Platform\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\Serilog.dll
+C:\Surya\Patient_Grievance_and_Complaint_Resolution_Platform\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\Serilog.AspNetCore.dll
+C:\Surya\Patient_Grievance_and_Complaint_Resolution_Platform\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\Serilog.Extensions.Hosting.dll
+C:\Surya\Patient_Grievance_and_Complaint_Resolution_Platform\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\Serilog.Extensions.Logging.dll
+C:\Surya\Patient_Grievance_and_Complaint_Resolution_Platform\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\Serilog.Formatting.Compact.dll
+C:\Surya\Patient_Grievance_and_Complaint_Resolution_Platform\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\Serilog.Settings.Configuration.dll
+C:\Surya\Patient_Grievance_and_Complaint_Resolution_Platform\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\Serilog.Sinks.Console.dll
+C:\Surya\Patient_Grievance_and_Complaint_Resolution_Platform\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\Serilog.Sinks.Debug.dll
+C:\Surya\Patient_Grievance_and_Complaint_Resolution_Platform\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\Serilog.Sinks.File.dll
+C:\Surya\Patient_Grievance_and_Complaint_Resolution_Platform\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
+C:\Surya\Patient_Grievance_and_Complaint_Resolution_Platform\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\System.IO.Pipelines.dll
+C:\Surya\Patient_Grievance_and_Complaint_Resolution_Platform\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\System.Text.Encodings.Web.dll
+C:\Surya\Patient_Grievance_and_Complaint_Resolution_Platform\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\System.Text.Json.dll
+C:\Surya\Patient_Grievance_and_Complaint_Resolution_Platform\Patient Grievance and Complaint Resolution\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
