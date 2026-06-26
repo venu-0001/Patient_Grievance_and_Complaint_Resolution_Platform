@@ -411,6 +411,16 @@ public partial class ApplicationDbContext : DbContext
                 .HasForeignKey(d => d.StatusId)
                 .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("FK_GRIEVANCES_status_id");
+            entity.Property(e => e.GrievanceSummary).HasMaxLength(1000).IsUnicode(false).HasColumnName("grievance_summary");
+
+            entity.Property(e => e.MatchedGrievanceNumber)
+                .HasMaxLength(50)
+                .IsUnicode(false)
+                .HasColumnName("matched_grievance_number");
+
+            entity.Property(e => e.EstimatedTimeSavedHrs)
+                .HasColumnType("decimal(10,2)")
+                .HasColumnName("estimated_time_saved_hrs");
         });
 
         modelBuilder.Entity<Investigator>(entity =>

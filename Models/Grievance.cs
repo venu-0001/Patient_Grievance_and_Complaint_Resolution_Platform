@@ -35,6 +35,12 @@ public partial class Grievance
 
     public DateTime? ClosedAt { get; set; }
 
+    public string? GrievanceSummary { get; set; }
+
+    public string? MatchedGrievanceNumber { get; set; }
+
+    public decimal? EstimatedTimeSavedHrs { get; set; }
+
     public virtual ICollection<Assignment> Assignments { get; set; } = new List<Assignment>();
 
     public virtual Category? Category { get; set; }

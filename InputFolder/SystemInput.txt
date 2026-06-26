@@ -82,15 +82,16 @@ Pick exactly one level using this rubric:
 
 Choose the single closest match from this allowed list. Output the NAME only .
 
-- Cardiology
-- Neurology
-- Dietary
-- Emergency Ward
-- Pediatrics
--Nursing
--Pharmacy
--Billing
--Clinical Services
+Cardiology
+Neurology
+Oncology
+Orthopedics
+General Surgery
+Emergency & Critical Care
+Radiology
+Psychiatry
+Pediatrics & Women Health
+Nephrology
 
 If the issue is food-related → Dietary.
 If life-threatening or acute trauma → Emergency Ward.
@@ -126,7 +127,7 @@ Return ONLY raw JSON. No markdown fences, no prose, no commentary before or afte
   "AssignedInvestigatorId": integer | null,
   "ClassificationReason": "string — 1-2 sentences explaining the RecordType + Severity decision"
   "PatientIssueOneliner":"Issue of the Patient in Oneline"
-  "RefferedGrievanceNumber":"Reffered Grievience Number  | null "
+  "RefferedGrievanceNumber":"Reffered Grievience Number Starts with GRV-  | null "
 }
 
 # HARD CONSTRAINTS

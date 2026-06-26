@@ -6,3 +6,4 @@ Delay in informing parents about child's available laboratory results.-GRV-20260
 Referral not processed for two days for child's specialist consultation-GRV-20260621170819
 Pediatrician did not review child for several hours-GRV-20260621171413
 Doctors failed to respond promptly to signs of a heart attack, resulting in serious complications.-GRV-20260622104926
+Knee pain with 3-hour treatment delay-GRV-20260625133950

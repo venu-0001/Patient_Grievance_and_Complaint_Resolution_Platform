@@ -20,4 +20,6 @@ public interface IGrievanceRepository
 
     Task<Assignment> AddAssignmentAsync(Assignment assignment);
     Task<string> GetDepartmentNameByIdAsync(int departmentId);
+
+    Task<Sla> GetDateBySeverity(string severity);
 }

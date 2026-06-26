@@ -84,5 +84,12 @@ namespace Patient_Grievance_and_Complaint_Resolution.Repository
 
             return department.DepartmentName;
         }
+
+        public async Task<Sla> GetDateBySeverity(string severity)
+        {
+            return await _context.Slas.FirstOrDefaultAsync(s=>s.SeverityLevel== severity);
+            
+        }
+
     }
 }

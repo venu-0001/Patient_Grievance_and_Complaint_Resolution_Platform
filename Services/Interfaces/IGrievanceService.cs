@@ -5,4 +5,5 @@ public interface IGrievanceService
 {
     Task<IActionResult> SubmitGrievanceAsync(PatientGrievanceRequest request);
     Task<IActionResult> GetPatientGrievanceAsync(int PatientId);
+    
 }

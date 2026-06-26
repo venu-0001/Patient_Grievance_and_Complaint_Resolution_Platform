@@ -1,8 +1,10 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Caching.Memory;
 using Patient_Grievance_and_Complaint_Resolution.DTOs;
 using Patient_Grievance_and_Complaint_Resolution.DTOs.AiInputsandOutputs;
 using Patient_Grievance_and_Complaint_Resolution.Models;
 using Patient_Grievance_and_Complaint_Resolution.Services;
+using System;
 using static System.Net.Mime.MediaTypeNames;
 
 public class GrievanceService : IGrievanceService
@@ -11,10 +13,12 @@ public class GrievanceService : IGrievanceService
     string configPath = Path.Combine("InputFolder", "SystemInput.txt");
     string outputPath = Path.Combine("OutputFolder", "AiOutput.txt");
     private static readonly HttpClient sharedClient = new HttpClient();
+    private readonly IMemoryCache _cache;
 
-    public GrievanceService(IGrievanceRepository grievanceRepository)
+    public GrievanceService(IGrievanceRepository grievanceRepository,IMemoryCache cache)
     {
         _grievanceRepository = grievanceRepository;
+        _cache = cache;
     }
 
     public async Task<IActionResult> SubmitGrievanceAsync(
@@ -120,6 +124,11 @@ public class GrievanceService : IGrievanceService
             {
                 throw new Exception("Model Failed to assign the investigator");
             }
+            var sla = await _grievanceRepository.GetDateBySeverity(result.Severity);
+            if (sla == null)
+            {
+                throw new Exception("Severity Not Found");
+            }
 
             var grievance = new Grievance
             {
@@ -131,19 +140,25 @@ public class GrievanceService : IGrievanceService
                 DepartmentId = department_id,
                 Severity = result.Severity,
                 InvestigatorId = result.AssignedInvestigatorId,
+                MatchedGrievanceNumber = result.RefferedGrievanceNumber,
+                GrievanceSummary=result.PatientIssueOneliner,
+                CreatedAt = DateTime.UtcNow,
+                DueDate = DateTime.UtcNow.AddDays(sla.InvestigationTimeDays),
                 StatusId = 2,
-                IsEscalated = false,
-                CreatedAt = DateTime.UtcNow
+                SlaId=sla.SlaId,
+                IsEscalated = false
+                
             };
 
             var savedGrievance = await _grievanceRepository.AddGrievanceAsync(grievance);
+            var cacheKey = GetCacheKey(savedGrievance.PatientId);
+            _cache.Remove(cacheKey);
             Console.WriteLine("Assigned Investigator Id: " + result.AssignedInvestigatorId);
             var assignment = new Assignment
             {
                 GrievanceId = savedGrievance.GrievanceId,
                 InvestigatorId = result.AssignedInvestigatorId ?? 0,
                 AssignedAt = DateTime.Now,
-                CompletedAt = DateTime.Today,
             };
             var savedAssignment = await _grievanceRepository.AddAssignmentAsync(assignment);
             var oneLiner = result.PatientIssueOneliner;
@@ -167,26 +182,37 @@ public class GrievanceService : IGrievanceService
     }
     public async Task<IActionResult> GetPatientGrievanceAsync(int patientId)
     {
-        var patientGrievance = await _grievanceRepository.GetPatientGrievanceByIdAsync(patientId);
-        if (patientGrievance == null || !patientGrievance.Any())
+        var cacheKey = GetCacheKey(patientId);
+        var response = _cache.Get<List<PatientGrievanceResponse>>(cacheKey);
+        if (response == null)
         {
-            throw new KeyNotFoundException("Patient Grievance not found.");
-        }
-        List<PatientGrievanceResponse> response = new();
-        foreach (var grievance in patientGrievance)
-        {
-            response.Add(new PatientGrievanceResponse
+            var patientGrievance = await _grievanceRepository.GetPatientGrievanceByIdAsync(patientId);
+            if (patientGrievance == null || !patientGrievance.Any())
             {
-                GrievanceNumber = grievance.GrievanceNumber,
-                Category = grievance.Category?.CategoryName ?? "N/A",
-                Department = grievance.Department.DepartmentName,
-                Status = grievance.Status.StatusName,
-                CreatedAt = grievance.CreatedAt,
-                DueDate = grievance.DueDate,
+                throw new KeyNotFoundException("Patient Grievance not found.");
+            }
+            response = new List<PatientGrievanceResponse>();
 
-            });
+            foreach (var grievance in patientGrievance)
+            {
+                response.Add(new PatientGrievanceResponse
+                {
+                    GrievanceNumber = grievance.GrievanceNumber,
+                    Category = grievance.Category?.CategoryName ?? "N/A",
+                    Department = grievance.Department.DepartmentName??"N/A",
+                    Status = grievance.Status.StatusName??"N/A",
+                    CreatedAt = grievance.CreatedAt,
+                    DueDate = grievance.DueDate,
+
+                });
+            }
         }
+        _cache.Set(cacheKey, response, TimeSpan.FromHours(1));
         return new OkObjectResult(response);
 
+    }
+    private string GetCacheKey(int patientId)
+    {
+        return $"GrievanceStatus_{patientId}";
     }
 }

@@ -12,7 +12,7 @@ namespace Patient_Grievance_and_Complaint_Resolution.Controllers
         {
             _complaintService = complaintService;
         }
-        [HttpGet(Name = "PatientComplaintRequest")]
+        [HttpGet("PatientComplaintRequest")]
         public async Task<IActionResult> GetPatientGrievances([FromQuery] int PatientId)
         {
             return await _complaintService.GetPatientComplaintAsync(PatientId);
