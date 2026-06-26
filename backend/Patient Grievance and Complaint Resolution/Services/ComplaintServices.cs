@@ -4,11 +4,11 @@ using Patient_Grievance_and_Complaint_Resolution.Services.Interfaces;
 
 namespace Patient_Grievance_and_Complaint_Resolution.Services
 {
-    public class ComplaintService : IComplaintService
+    public class ComplaintServices : IComplaintService
     {
         private readonly IComplaintRepository _repository;
 
-        public ComplaintService(IComplaintRepository repository)
+        public ComplaintServices(IComplaintRepository repository)
         {
             _repository = repository;
         }

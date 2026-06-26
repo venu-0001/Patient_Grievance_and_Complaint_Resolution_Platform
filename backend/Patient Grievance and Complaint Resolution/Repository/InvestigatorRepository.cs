@@ -190,6 +190,17 @@ GetDashboardSummaryAsync(
                 .Where(i => i.UserId == userId)
                 .Select(i => (int?)i.InvestigatorId)
                 .FirstOrDefaultAsync(cancellationToken);
+
         }
+        public async Task<Grievance?> GetGrievanceByNumberAsync(
+string grievanceNumber,
+CancellationToken cancellationToken)
+        {
+            return await _context.Grievances
+                .FirstOrDefaultAsync(
+                    g => g.GrievanceNumber == grievanceNumber,
+                    cancellationToken);
+        }
+
     }
 }
